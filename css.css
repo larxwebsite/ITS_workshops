@@ -15,9 +15,10 @@
 /* Common Properties for all objects */
 body { font-family: "Fira Sans"; background-color: white;}
 /* Part #1 : Website Header */
-header { text-align: center; padding-top: 20px; padding-bottom: 40px; background-color: #330662;}
-header h1 { font: size 72px; color: #eee6f3;}
-header h2 { font: size 96px; color: white; font-family: "Charm";}
+header { text-align: center; padding-top: 80px; padding-bottom: 100px; background: url("index.files/banner.png"); background-size: cover;}
+
+header h1 { font: size 108px; color: #330662;}
+header h2 { font: size 144px; color: white; font-family: "Charm";}
 
 /* Tablet and Desktop version */
 @media screen and (min-width : 840px) {
@@ -28,6 +29,8 @@ nav { background: #eee6f3; font-size: 1em; color: #7b5aa6; }
 nav a {text-decoration: none; color: #7b5aa6;}
 nav ul { list-style: none; width: 700px; margin:0 auto; padding:0; display: flex; height: 55px; align-items: center;}
 nav ul li { box-sizing: border-box;  padding: 30px;}
+#Flyer {margin:auto; display:block; text-align: center; align-items: center;}
+#Flyer img {width: 60%; margin: 20px auto}
 }
 
 
@@ -47,6 +50,7 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 #Content {margin: auto; width: 800px; margin-top: 40px;}
 #Content h2 {text-align: center; background:#66513c ; color: #f5deb3; ;font-size: 24px;padding: 10px; margin-top: 30px; margin-bottom: 20px;}
 #Content h3 {color: #7b5aa6; font-weight: bolder; padding-top: 20px;font-size: 22px; padding-bottom: 10px;}
+#Content h4 {color: #66513c; font-weight: bolder; padding-top: 15px; padding-bottom: 10px; font-size: 18px;}
 .type1 {padding-left: 40px; list-style: circle;}
 .type1 li {padding: 3px;}
 .type2 {padding-left: 40px; list-style: square;}
@@ -54,7 +58,7 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 #Content a {color: #66513c;}
 #Content p {padding-top: 10px; padding-bottom: 10px; text-align: justify; line-height: 150%;}
 #Content p b {font-weight: bolder;}
-#Content h3, p {padding: 10px;}
+#Content h3, h4, p {padding: 10px;}
 
 
 /* For Tables */
@@ -94,7 +98,6 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 }
 
 .styled-table tbody tr.active-row {
-    font-weight: bold;
     color: #7b5aa6;
 }
 
@@ -117,5 +120,7 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
         width: 380px; text-align: center;margin: 20px;}
     #Contact p { font-size:18px; padding: 5px;}
     #Content {margin: auto; width: 100%; margin-top: 40px;}
+    #Flyer {margin: auto; display:block; text-align: center; align-items: center;}
+    #Flyer img {width: 75%; margin:0 auto}
 
 }
