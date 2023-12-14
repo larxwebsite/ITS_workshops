@@ -59,6 +59,8 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 #Content p {padding-top: 10px; padding-bottom: 10px; text-align: justify; line-height: 150%;}
 #Content p b {font-weight: bolder;}
 #Content h3, h4, p {padding: 10px;}
+#date {color: tomato;}
+#Content img{padding: 10px}
 
 
 /* For Tables */
