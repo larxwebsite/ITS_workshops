@@ -24,7 +24,7 @@ header h2 { font: size 144px; color: white; font-family: "Charm";}
 @media screen and (min-width : 840px) {
 
 
-    /* Part #1 : Navigation/Links */
+/* Part #1 : Navigation/Links */
 nav { background: #eee6f3; font-size: 1em; color: #7b5aa6; }
 nav a {text-decoration: none; color: #7b5aa6;}
 nav ul { list-style: none; width: 700px; margin:0 auto; padding:0; display: flex; height: 55px; align-items: center;}
@@ -35,7 +35,7 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 
 
 
-/* Part #3 : Contact and Image */
+/* Part #2 : Contact and Image */
 #ContactAndImage { background: #f5deb3; height: 300px; display: flex; justify-content: center;}
 #Image { width:240px; height: 300px; text-align: right;}
 #Image img {margin: 30px auto; margin-right: 20px; height: 240px;}
@@ -46,7 +46,7 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 #Contact h2 { color: #efefd7; font-size: 28px; font-weight:bold; padding-top: 30px; padding-bottom: 10px;}
 #Contact p { font-size:18px; margin: 5px; }
 
-/* Part #4 : Content */
+/* Part #3 : Content */
 #Content {margin: auto; width: 800px; margin-top: 40px;}
 #Content h2 {text-align: center; background:#66513c ; color: #f5deb3; ;font-size: 24px;padding: 10px; margin-top: 30px; margin-bottom: 20px;}
 #Content h3 {color: #7b5aa6; font-weight: bolder; padding-top: 20px;font-size: 22px; padding-bottom: 10px;}
@@ -61,6 +61,8 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 #Content h3, h4, p {padding: 10px;}
 #date {color: tomato;}
 #Content img{padding: 10px}
+#Post {margin: auto; text-align: center;}
+#Post h3{color: darkcyan; font-size: 20px}
 
 
 /* For Tables */
@@ -126,3 +128,6 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
     #Flyer img {width: 75%; margin:0 auto}
 
 }
+
+
+
