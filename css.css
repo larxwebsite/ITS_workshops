@@ -61,8 +61,7 @@ nav ul li { box-sizing: border-box;  padding: 30px;}
 #Content h3, h4, p {padding: 10px;}
 #date {color: tomato;}
 #Content img{padding: 10px}
-
-#Post {margin: auto; width: 800px; margin-top: 40px; text-align: center;}
+#Post {margin: auto; text-align: center;}
 #Post h3{color: darkcyan; font-size: 20px}
 
 
